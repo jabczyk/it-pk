@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "dayOfWeek": 1,
+    "startTime": "08:00",
+    "endTime": "09:30",
+    "title": "DISCRETE MATH",
+    "instructor": "Dr. Alan Turing",
+    "location": "Room 304-A",
+    "theme": "blue"
+  },
+  {
+    "id": 2,
+    "dayOfWeek": 2,
+    "startTime": "10:00",
+    "endTime": "11:30",
+    "title": "LINEAR ALGEBRA",
+    "instructor": "Prof. Emmy Noether",
+    "location": "Lab 12",
+    "theme": "green"
+  },
+  {
+    "id": 3,
+    "dayOfWeek": 3,
+    "startTime": "09:30",
+    "endTime": "12:00",
+    "title": "DATA STRUCTURES",
+    "instructor": "Dr. Grace Hopper",
+    "location": "Aula Magna",
+    "theme": "gray",
+    "label": "LECTURE"
+  },
+  {
+    "id": 4,
+    "dayOfWeek": 4,
+    "startTime": "13:00",
+    "endTime": "14:30",
+    "title": "AI FUNDAMENTALS",
+    "instructor": "Dr. Yann LeCun",
+    "location": "Room 102",
+    "theme": "blue"
+  },
+  {
+    "id": 5,
+    "dayOfWeek": 5,
+    "startTime": "08:00",
+    "endTime": "10:00",
+    "title": "ACADEMIC SEMINAR",
+    "instructor": "Rotating Faculty",
+    "location": "Conf Hall",
+    "theme": "green"
+  },
+  {
+    "id": 6,
+    "date": "2024-10-15",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "title": "GUEST LECTURE",
+    "instructor": "Dr. Sarah Connor",
+    "location": "Main Hall",
+    "theme": "blue",
+    "label": "SPECIAL"
+  }
+]

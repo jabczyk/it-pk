@@ -21,9 +21,9 @@ export function PublicLayout() {
   };
 
   return (
-    <div className="min-h-screen bg-white font-sans text-slate-800 antialiased flex flex-col justify-between">
+    <div className="h-screen bg-white font-sans text-slate-800 antialiased flex flex-col overflow-hidden">
       {/* 1. Header / Top Navigation */}
-      <header className="sticky top-0 z-50 bg-white border-b border-slate-100 px-6 py-4 flex items-center justify-between">
+      <header className="bg-white border-b border-slate-100 px-6 py-4 flex items-center justify-between z-50 shrink-0">
         <Link to="/" className="flex items-center gap-2 hover:opacity-85 transition-opacity">
           {/* Krakow University Emblem Representation */}
           <div className="w-8 h-8 rounded-full bg-[#021124] flex items-center justify-center text-white font-bold text-xs tracking-wider">
@@ -62,14 +62,14 @@ export function PublicLayout() {
               </Link>
             ) : (
               <div className="flex items-center gap-3 pl-3 border-l border-slate-150">
-                <div className="flex flex-col items-end hidden sm:flex">
+                <Link to="/dashboard" className="flex flex-col items-end hidden sm:flex hover:opacity-75 transition-opacity">
                   <span className="text-[12px] font-bold text-slate-700 leading-none">
                     {user.displayName || 'User'}
                   </span>
                   <span className="text-[10px] text-slate-400 mt-1 leading-none">
                     {user.email}
                   </span>
-                </div>
+                </Link>
                 <button 
                   onClick={handleLogout} 
                   title="Log Out"
@@ -79,16 +79,14 @@ export function PublicLayout() {
                 </button>
               </div>
             )}
-
-            <button className="p-2 hover:bg-slate-50 rounded-full transition-colors" aria-label="Change Language">
-              <Globe className="w-4 h-4 text-slate-500" />
-            </button>
           </div>
         </div>
       </header>
 
-      {/* 2. Page Content */}
-      <main className="flex-1 flex flex-col bg-white">
+      {/* Scrollable container for Content and Footer */}
+      <div className="flex-1 overflow-y-auto flex flex-col">
+        {/* 2. Page Content */}
+        <main className="flex-1 flex flex-col bg-white">
         <Outlet />
       </main>
 
@@ -157,6 +155,7 @@ export function PublicLayout() {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 }

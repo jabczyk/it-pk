@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Globe, 
+  Globe,
   MapPin, 
   Play, 
   Check, 
   Compass, 
   Shield, 
   BarChart3, 
-  Mail, 
-  ArrowRight,
-  Sparkles
+  ArrowRight
 } from 'lucide-react';
 
 interface Article {
@@ -54,7 +52,7 @@ const employeeArticles: Article[] = [
     title: 'Faculty Senate Announces New Research Support Grants',
     description: 'A new funding scheme has been approved to support early-career researchers and collaborative projects across our key computing research departments.',
     date: 'May 26, 2024',
-    image: '/images/network_cables.png'
+    image: '/images/computer_lab.png'
   },
   {
     id: 2,
@@ -77,43 +75,7 @@ export function HomePage() {
   const articles = activeTab === 'students' ? studentArticles : employeeArticles;
 
   return (
-    <div className="min-h-screen bg-white font-sans text-slate-800 antialiased flex flex-col">
-      {/* 1. Header / Top Navigation */}
-      <header className="sticky top-0 z-50 bg-white border-b border-slate-100 px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          {/* Krakow University Emblem Representation */}
-          <div className="w-8 h-8 rounded-full bg-[#021124] flex items-center justify-center text-white font-bold text-xs tracking-wider">
-            PK
-          </div>
-          <span className="font-bold text-xs sm:text-[13px] tracking-widest text-[#021124] uppercase">
-            Faculty of Computer Science and Mathematics
-          </span>
-        </div>
-
-        <div className="flex items-center gap-6">
-          <nav className="hidden lg:flex items-center gap-6">
-            <a href="#recruitment" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">Recruitment</a>
-            <a href="#departments" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">Departments</a>
-            <a href="#research" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">Research</a>
-            <a href="#news" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">News</a>
-            <a href="#about" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">About</a>
-            <a href="#contact" className="text-[13px] font-medium text-slate-500 hover:text-[#021124] transition-colors">Contact</a>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <Link 
-              to="/schedule" 
-              className="flex items-center gap-2 bg-[#021124] hover:bg-[#0f172a] text-white px-4 py-2 rounded-sm text-[13px] font-medium transition-all shadow-sm"
-            >
-              <MapPin className="w-3.5 h-3.5 text-[#84cc16]" />
-              <span>Virtual Tour</span>
-            </Link>
-            <button className="p-2 hover:bg-slate-50 rounded-full transition-colors" aria-label="Change Language">
-              <Globe className="w-4 h-4 text-slate-500" />
-            </button>
-          </div>
-        </div>
-      </header>
+    <div className="flex flex-col flex-1">
 
       {/* 2. Hero Section */}
       <section className="relative min-h-[500px] lg:h-[600px] flex items-center text-white overflow-hidden">
@@ -146,12 +108,12 @@ export function HomePage() {
             >
               Explore Programs
             </a>
-            <Link 
-              to="/schedule"
+            <button 
+              type="button"
               className="border-2 border-white/80 hover:border-white hover:bg-white/10 text-white text-[14px] font-bold px-6 py-2.5 rounded-sm transition-all"
             >
               Apply Now
-            </Link>
+            </button>
           </div>
         </div>
       </section>
@@ -233,7 +195,7 @@ export function HomePage() {
               </div>
               <div className="px-6 pb-6 pt-2 flex items-center justify-between border-t border-slate-50">
                 <span className="text-slate-400 text-xs">{articles[0].date}</span>
-                <Link to="/news-editor" className="flex items-center gap-1 text-[12px] font-bold text-slate-700 hover:text-slate-950 transition-colors">
+                <Link to="#" className="flex items-center gap-1 text-[12px] font-bold text-slate-700 hover:text-slate-950 transition-colors">
                   <span>Read Article</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
@@ -257,7 +219,7 @@ export function HomePage() {
                   </div>
                   <div className="flex items-center justify-between border-t border-slate-50 mt-4 pt-4">
                     <span className="text-slate-400 text-[11px]">{art.date}</span>
-                    <Link to="/news-editor" className="text-[11px] font-bold text-slate-700 hover:text-slate-950 transition-colors">
+                    <Link to="#" className="text-[11px] font-bold text-slate-700 hover:text-slate-950 transition-colors">
                       View Details
                     </Link>
                   </div>
@@ -302,7 +264,7 @@ export function HomePage() {
             </div>
 
             <Link 
-              to="/schedule"
+              to="#"
               className="mt-8 flex items-center gap-2 bg-white text-[#021124] hover:bg-slate-100 text-[13px] font-bold px-5 py-2.5 rounded-sm transition-all shadow-md w-fit"
             >
               <MapPin className="w-4 h-4 text-[#65a30d]" />
@@ -383,71 +345,6 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* 7. Footer */}
-      <footer className="bg-[#f8fafc] border-t border-slate-200/60 py-12 px-6 mt-auto">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-slate-200/40">
-            {/* Column 1 (University Info) */}
-            <div className="md:col-span-4 flex flex-col gap-4">
-              <div>
-                <h4 className="text-[13px] font-bold text-[#021124] uppercase tracking-wider">Krakow University of Technology</h4>
-                <p className="text-slate-500 text-xs mt-2 leading-relaxed">
-                  Warszawska 24, 31-155 Krakow, Poland<br />
-                  Dean's Office: +48 12 628 20 00
-                </p>
-              </div>
-              
-              <div className="flex items-center gap-3 text-slate-400 mt-2">
-                <a href="#" className="hover:text-[#021124] transition-colors"><Globe className="w-4 h-4" /></a>
-                <a href="#" className="hover:text-[#021124] transition-colors"><Mail className="w-4 h-4" /></a>
-              </div>
-            </div>
-
-            {/* Column 2 (Quick Links) */}
-            <div className="md:col-span-3">
-              <h4 className="text-[13px] font-bold text-[#021124] uppercase tracking-wider">Quick Links</h4>
-              <div className="flex flex-col gap-2 mt-4 text-xs">
-                <Link to="/schedule" className="text-slate-500 hover:text-[#021124] transition-colors">Staff Directory</Link>
-                <Link to="/schedule" className="text-slate-500 hover:text-[#021124] transition-colors">Intranet</Link>
-                <Link to="/schedule" className="text-slate-500 hover:text-[#021124] transition-colors">Library</Link>
-              </div>
-            </div>
-
-            {/* Column 3 (Legal) */}
-            <div className="md:col-span-2">
-              <h4 className="text-[13px] font-bold text-[#021124] uppercase tracking-wider">Legal</h4>
-              <div className="flex flex-col gap-2 mt-4 text-xs">
-                <a href="#" className="text-slate-500 hover:text-[#021124] transition-colors">Privacy Policy</a>
-                <a href="#" className="text-slate-500 hover:text-[#021124] transition-colors">Accessibility Statement</a>
-              </div>
-            </div>
-
-            {/* Column 4 (Newsletter) */}
-            <div className="md:col-span-3">
-              <h4 className="text-[13px] font-bold text-[#021124] uppercase tracking-wider">Faculty Newsletter</h4>
-              <p className="text-slate-500 text-xs mt-2 leading-relaxed">
-                Stay updated with our latest research and events.
-              </p>
-              <form onSubmit={(e) => e.preventDefault()} className="flex items-center mt-3 border border-slate-200 rounded overflow-hidden max-w-xs shadow-sm bg-white">
-                <input 
-                  type="email" 
-                  placeholder="Email address" 
-                  className="flex-1 bg-white px-3 py-2 text-xs focus:outline-none placeholder:text-slate-400 text-slate-800"
-                />
-                <button type="submit" className="bg-[#021124] text-white p-2 hover:bg-[#0f172a] transition-colors" aria-label="Subscribe">
-                  <Mail className="w-3.5 h-3.5" />
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="pt-6 text-center">
-            <span className="text-[11px] text-slate-400">
-              &copy; {new Date().getFullYear()} Krakow University of Technology, Faculty of Computer Science and Mathematics.
-            </span>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

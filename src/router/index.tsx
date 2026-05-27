@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { AppLayout } from '../components/layout/AppLayout';
+import { PublicLayout } from '../components/layout/PublicLayout';
 import { HomePage } from '../pages/HomePage';
 import { SchedulePage } from '../pages/SchedulePage';
 import { NewsEditorPage } from '../pages/NewsEditorPage';
@@ -8,42 +9,95 @@ import { StudentRecordsPage } from '../pages/StudentRecordsPage';
 import { SettingsPage } from '../pages/SettingsPage';
 import { ResearchPage } from '../pages/ResearchPage';
 import { FacultyPage } from '../pages/FacultyPage';
+import { LoginPage } from '../pages/LoginPage';
+import { RegisterPage } from '../pages/RegisterPage';
+import { ProtectedRoute } from '../components/ProtectedRoute';
+import { 
+  RecruitmentPage, 
+  DepartmentsInfoPage, 
+  ResearchInfoPage, 
+  NewsInfoPage, 
+  AboutPage, 
+  ContactPage 
+} from '../pages/PublicInfoPages';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
-    element: <HomePage />
-  },
-  {
-    element: <AppLayout />,
+    element: <PublicLayout />,
     children: [
       {
-        path: 'dashboard',
-        element: <DashboardPage />
+        path: '/',
+        element: <HomePage />
       },
       {
-        path: 'schedule',
-        element: <SchedulePage />
+        path: 'recruitment',
+        element: <RecruitmentPage />
       },
       {
-        path: 'news-editor',
-        element: <NewsEditorPage />
+        path: 'departments-info',
+        element: <DepartmentsInfoPage />
       },
       {
-        path: 'records',
-        element: <StudentRecordsPage />
+        path: 'research-info',
+        element: <ResearchInfoPage />
       },
       {
-        path: 'settings',
-        element: <SettingsPage />
+        path: 'news-info',
+        element: <NewsInfoPage />
       },
       {
-        path: 'research',
-        element: <ResearchPage />
+        path: 'about',
+        element: <AboutPage />
       },
       {
-        path: 'faculty',
-        element: <FacultyPage />
+        path: 'contact',
+        element: <ContactPage />
+      }
+    ]
+  },
+  {
+    path: 'login',
+    element: <LoginPage />
+  },
+  {
+    path: 'register',
+    element: <RegisterPage />
+  },
+  {
+    element: <ProtectedRoute />,
+    children: [
+      {
+        element: <AppLayout />,
+        children: [
+          {
+            path: 'dashboard',
+            element: <DashboardPage />
+          },
+          {
+            path: 'schedule',
+            element: <SchedulePage />
+          },
+          {
+            path: 'news-editor',
+            element: <NewsEditorPage />
+          },
+          {
+            path: 'records',
+            element: <StudentRecordsPage />
+          },
+          {
+            path: 'settings',
+            element: <SettingsPage />
+          },
+          {
+            path: 'research',
+            element: <ResearchPage />
+          },
+          {
+            path: 'faculty',
+            element: <FacultyPage />
+          }
+        ]
       }
     ]
   }

@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { AppLayout } from '../components/layout/AppLayout';
+import { ProtectedRoute } from '../components/ProtectedRoute';
 import { PublicLayout } from '../components/layout/PublicLayout';
 import { HomePage } from '../pages/HomePage';
 import { SchedulePage } from '../pages/SchedulePage';
@@ -11,7 +12,8 @@ import { ResearchPage } from '../pages/ResearchPage';
 import { FacultyPage } from '../pages/FacultyPage';
 import { LoginPage } from '../pages/LoginPage';
 import { RegisterPage } from '../pages/RegisterPage';
-import { ProtectedRoute } from '../components/ProtectedRoute';
+import { NotFoundPage } from '../pages/NotFoundPage';
+import { StudentSchedulePage } from '../pages/StudentSchedulePage';
 import { 
   RecruitmentPage, 
   DepartmentsInfoPage, 
@@ -96,9 +98,17 @@ export const router = createBrowserRouter([
           {
             path: 'faculty',
             element: <FacultyPage />
+          },
+          {
+            path: 'student-schedule',
+            element: <StudentSchedulePage />
           }
         ]
       }
     ]
+  },
+  {
+    path: '*',
+    element: <NotFoundPage />
   }
 ]);

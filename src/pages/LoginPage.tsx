@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase/config';
 import { 
@@ -12,12 +12,21 @@ import {
   AlertCircle
 } from 'lucide-react';
 
+type LoginLocationState = {
+  from?: {
+    pathname?: string;
+  };
+};
+
 export function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+  const state = location.state as LoginLocationState | null;
+  const nextPath = state?.from?.pathname ?? '/dashboard';
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,7 +35,7 @@ export function LoginPage() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/dashboard');
+      navigate(nextPath, { replace: true });
     } catch (err: any) {
       console.error(err);
       if (err.code === 'auth/invalid-credential' || err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password') {

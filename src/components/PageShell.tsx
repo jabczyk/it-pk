@@ -1,28 +1,35 @@
 import type { ReactNode } from 'react'
 
 type PageShellProps = {
+  eyebrow?: string
   title: string
-  description: string
-  children: ReactNode
+  description?: string
+  children?: ReactNode
+  glow?: boolean
 }
 
-export function PageShell ({ title, description, children }: PageShellProps) {
+export function PageShell ({ eyebrow = 'pk-it', title, description, children, glow = true }: PageShellProps) {
   return (
-    <main className='flex min-h-screen items-center justify-center px-6 py-12'>
-      <section className='w-full max-w-4xl rounded-3xl border border-slate-200/70 bg-white/80 p-8 shadow-2xl shadow-sky-100 backdrop-blur md:p-12'>
-        <div className='max-w-2xl space-y-3'>
-          <p className='text-sm font-semibold uppercase tracking-[0.3em] text-sky-600'>
-            pk-it
-          </p>
-          <h1 className='text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl'>
-            {title}
-          </h1>
+    <section className={[
+      'w-full rounded-3xl border border-slate-200/70 bg-white/85 p-8 backdrop-blur md:p-12',
+      glow ? 'shadow-2xl shadow-sky-100' : 'shadow-none'
+    ].join(' ')}>
+      <div className='max-w-2xl space-y-3'>
+        <p className='text-sm font-semibold uppercase tracking-[0.3em] text-sky-600'>
+          {eyebrow}
+        </p>
+        <h1 className='text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl'>
+          {title}
+        </h1>
+        {description !== undefined && description.length > 0 && (
           <p className='text-base text-slate-600 md:text-lg'>
             {description}
           </p>
-        </div>
+        )}
+      </div>
+      {children !== undefined && (
         <div className='mt-10'>{children}</div>
-      </section>
-    </main>
+      )}
+    </section>
   )
 }

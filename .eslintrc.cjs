@@ -27,7 +27,7 @@ module.exports = {
       version: 'detect'
     }
   },
-  ignorePatterns: ['dist', 'node_modules'],
+  ignorePatterns: ['dist', 'node_modules', 'vite.config.d.ts', '.eslintrc.cjs'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',

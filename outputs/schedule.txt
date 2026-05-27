@@ -1,0 +1,171 @@
+Academic schedule extracted from sheet 1, second table: studia II stopnia
+Source file: /Users/michal/Downloads/24042026_11_INFORMATYKA-lato-rozklad-STACJONARNE-2025_2026 (1).xls
+Format: TIME | YEAR/SEMESTER | GROUPS | RAW ENTRY | NOTE
+
+PONIEDZIAŁEK
+07:30-09:00 | ROK I sem 1 | CY4 | BAI lab. MR s. 135
+07:30-10:30 | ROK I sem 1 | SIiRRz2 | UM P ANiem s. 131/ZDALNIE UWAGA! Zajęcia odbywają się 23.02.2026-31.03.2026 oraz 15.05.2026-15.06.2026. Zajęcia w formie zdalnej: 23.03.2026, 30.03.2026, 18.05.2026. | NOTE: UWAGA! Zajęcia odbywają się 23.02.2026-31.03.2026 oraz 15.05.2026-15.06.2026. Zajęcia w formie zdalnej: 23.03.2026, 30.03.2026, 18.05.2026.
+09:00-10:45 | ROK II sem 3 | SIiRRz1 | RRzwZI P KS s. 114 GIL/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:00-10:45 | ROK II sem 3 | SIiRRz2 | RRzwZI P KS s. 114 GIL/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:15-10:45 | ROK I sem 1 | DS2 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr Z. Małecka s. Działownia 1/15
+09:30-11:00 | ROK I sem 1 | CY1 | S lab. PD s. 136
+11:00-12:30 | ROK I sem 1 | CY2 | S lab. PD s. 136
+11:00-12:30 | ROK I sem 1 | CY3 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr Z. Małecka s. Działownia 1/15
+11:00-12:30 | ROK I sem 1 | CY4 | TPF P KS s. 114 GIL pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+12:30-14:15 | ROK II sem 3 | SIiRRz1,SIiRRz2 | Zarządzanie strategiczne firmą ćwiczenia dr hab. J. Żyra, prof. PK co 2 tydzień - 15h s. N | NOTE: co 2 tydzień - 15h
+12:45-14:15 | ROK I sem 1 | CY3 | S lab. PD s. 136
+12:45-14:15 | ROK I sem 1 | CY4 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr Z. Małecka s. Działownia 1/15
+12:45-14:15 | ROK I sem 1 | SIiRRz1 | MOwNiT lab. WR s. 151 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+12:45-14:15 | ROK I sem 1 | SIiRRz2 | MOwNiT lab. WR s. 151 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+14:15-15:45 | ROK I sem 1 | DS1 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia dr hab. Konstantinos Raftopoulos s. 152 SJO
+14:15-15:45 | ROK I sem 1 | DS3 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia dr hab. Konstantinos Raftopoulos s. 152 SJO
+14:30-16:15 | ROK II sem 3 | CY1,CY2 | Zarządzanie strategiczne firmą ćwiczenia dr hab. J. Żyra, prof. PK wymiennie co 2 tydzień - 15h s. N | NOTE: wymiennie co 2 tydzień - 15h
+14:30-16:15 | ROK II sem 3 | CY3 | Zarządzanie strategiczne firmą ćwiczenia dr hab. J. Żyra, prof. PK wymiennie co 2 tydzień - 15h s. N | NOTE: wymiennie co 2 tydzień - 15h
+14:30-16:00 | ROK I sem 1 | CY4 | S lab. PD s. 136
+14:30-16:15 | ROK II sem 3 | DS3 | SR lab. MZ s. 151
+14:30-16:15 | ROK II sem 3 | SIiRRz1,SIiRRz2 | Seminarium naukowe dr hab. Jarosław Kwapień, prof. IFJ PAN s. Działownia 1/15
+15:45-17:15 | ROK I sem 1 | DS1 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia dr hab. Konstantinos Raftopoulos s. 152 SJO
+15:45-17:15 | ROK I sem 1 | DS4 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia dr hab. Konstantinos Raftopoulos s. 152 SJO
+16:15-17:45 | ROK I sem 1 | CY1 | BAI lab. AMyc s. 131
+16:15-17:45 | ROK I sem 1 | CY3 | TPF P KS s. wykładowa/135,136/ZDALNIE pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+16:15-17:45 | ROK I sem 1 | DS2 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+16:15-17:45 | ROK I sem 1 | DS3 | ZTP lab. Wojciech Malik s. 135
+16:15-18:00 | ROK II sem 3 | DS4 | SR lab. MZ s. 151
+16:15-17:45 | ROK I sem 1 | SIiRRz1 | ZTP lab. Gloria Kuliś s. 136
+16:30-18:15 | ROK II sem 3 | CY1,CY2 | Seminarium naukowe prof. dr hab. S. Drożdż s. Działownia 1/15
+18:00-19:30 | ROK I sem 1 | CY2 | BAI lab. AMyc s. 131
+18:00-19:30 | ROK I sem 1 | CY3 | BAI lab. MR s. 151
+18:00-19:30 | ROK I sem 1 | CY4 | ZTP lab. KW s. wykładowa KI/135, 136 bis
+18:00-19:30 | ROK I sem 1 | DS1 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+18:00-20:15 | ROK I sem 1 | DS2 | OE P HO s. 216 WIŚiE/ZDALNIE
+18:00-19:30 | ROK I sem 1 | DS4 | ZTP lab. Wojciech Malik s. 135
+18:00-19:30 | ROK I sem 1 | SIiRRz2 | ZTP lab. Gloria Kuliś s. 136
+18:30-20:15 | ROK II sem 3 | CY3 | Seminarium naukowe dr hab. Jarosław Kwapień, prof. IFJ PAN s. N
+18:30-21:15 | ROK II sem 3 | SIiRRz1 | Pracownia problemowa prof. dr hab. S. Drożdż s. Działownia 1/15
+19:30-21:15 | ROK II sem 3 | CY2 | BAM lab. Tomasz Michalski s. 114 GIL
+19:45-21:15 | ROK I sem 1 | CY1 | ZTP lab. KW s. wykładowa KI/135, 136 bis
+19:45-21:15 | ROK I sem 1 | CY2 | BChO lab. AMyc s. 131
+19:45-21:15 | ROK I sem 1 | DS3 | TPF lab. Wojciech Malik s. 135 druga połowa semestru -15h | NOTE: druga połowa semestru -15h
+19:45-21:15 | ROK I sem 1 | DS4 | TPF P PŁ s. 135 pierwsza połowa smestru - 15h | NOTE: pierwsza połowa smestru - 15h
+19:45-21:15 | ROK I sem 1 | SIiRRz1 | TPF P KS s. 151 pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+19:45-21:15 | ROK I sem 1 | SIiRRz2 | TPF lab. Gloria Kuliś s. 151 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+
+WTOREK
+07:30-09:00 | ROK I sem 1 | CY1,CY2,CY3,CY4 | Wstęp do cyberbezpieczeństwa/Bezpieczeństwo chmur obliczeniowych wykład/wykład dr A. Jakóbik ZDALNIE (po 15h) | NOTE: (po 15h)
+07:30-09:00 | ROK I sem 1 | DS1 | SAD P PB s. wykładowa KI/135, 136 bis/ZDALNIE
+07:30-09:00 | ROK I sem 1 | SIiRRz1 | MVR lab. PŁ s. 136 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+07:30-09:15 | ROK II sem 3 | SIiRRz1 | RRzwZI lab. DR s. 114 GIL
+07:30-09:00 | ROK I sem 1 | SIiRRz2 | MVR lab. PŁ s. 136 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:00-10:30 | ROK I sem 1 | DS2 | SAD P PB s. wykładowa KI/135, 136 bis/ZDALNIE
+09:00-10:30 | ROK I sem 1 | DS3 | TPF P PŁ s. 136/ZDALNIE pierwsza połowa smestru - 15h | NOTE: pierwsza połowa smestru - 15h
+09:00-10:30 | ROK I sem 1 | DS4 | TPF lab. Wojciech Malik s. 136 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+09:15-10:45 | ROK I sem 1 | CY1,CY2,CY3,CY4 | Wykrywanie zagrożeń i reakcje na incydenty wykład mgr inż. M. Roszkowski ZDALNIE
+09:15-10:45 | ROK I sem 1 | SIiRRz1 | TPF lab. Gloria Kuliś s. 151 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+09:15-11:00 | ROK II sem 3 | SIiRRz2 | RRzwZI lab. DR s. 114 GIL
+09:15-10:45 | ROK I sem 1 | SIiRRz2 | TPF P KS s. 151 pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+10:30-12:00 | ROK I sem 1 | DS3 | SAD P PB s. wykładowa KI/135, 136 bis/ZDALNIE
+10:45-12:15 | ROK I sem 1 | DS1 | TPF lab. Gloria Kuliś s. 136 druga połowa semestru | NOTE: druga połowa semestru
+10:45-12:15 | ROK I sem 1 | DS2 | TPF P PŁ s. 136/ZDALNIE pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+11:00-12:30 | ROK I sem 1 | CY1,CY2,CY3,CY4 | Statystyka wykład dr P. Drygaś ZDALNIE
+11:00-12:30 | ROK I sem 1 | SIiRRz1 | PG lab. DR s. 114 GIL co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+11:00-12:30 | ROK I sem 1 | SIiRRz2 | PG lab. DR s. 114 GIL co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+12:00-13:30 | ROK I sem 1 | DS4 | SAD P PB s. wykładowa KI/135, 136 bis/ZDALNIE
+13:30-15:15 | ROK II sem 3 | DS1 | SR lab. MZ s. 114 GIL
+14:30-16:00 | ROK I sem 1 | CY1,CY2,CY3,CY4,DS1,DS2,DS3,DS4,SIiRRz1,SIiRRz2 | Techniki projektowania frontendowego dr hab. inż. arch. P. Ozimek, prof. PK wykład ZDALNIE
+15:30-17:15 | ROK II sem 3 | DS2 | SR lab. MZ s. 114 GIL
+16:15-17:45 | ROK I sem 1 | CY1,CY2,CY3,CY4,DS1,DS2,DS3,DS4,SIiRRz1,SIiRRz2 | Zaawansowane technologie baz danych wykład Szymon Szomiński ZDALNIE (15h) | NOTE: (15h)
+16:15-19:00 | ROK II sem 3 | SIiRRz2 | Pracownia problemowa dr inż. T. Gąciarz s. N
+18:00-19:30 | ROK I sem 1 | CY1,CY2,CY3,CY4,DS1,DS2,DS3,DS4,SIiRRz1,SIiRRz2 | Zaawansowane techniki programowania wykład dr R. Kycia ZDALNIE (15h) | NOTE: (15h)
+19:45-21:15 | ROK I sem 1 | CY1,CY2,CY3,CY4 | Bezpieczeństwo aplikacji internetowych wykład dr inż. A. Wilczyński ZDALNIE
+
+ŚRODA
+07:30-09:15 | ROK II sem 3 | CY1,CY2,CY3 | Bezpieczeństwo aplikacji mobilnych wykład mgr inż. M. Niedźwiecki co 2 tydzień - 15 h ZDALNIE
+07:30-09:00 | ROK I sem 1 | CY1 | WZiRnI lab. MR s. 131 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+07:30-09:00 | ROK I sem 1 | CY2 | WZiRnI lab. MR s. 131 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+07:30-09:00 | ROK I sem 1 | CY3 | TPF lab. Wojciech Malik s. 136 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+07:30-09:00 | ROK I sem 1 | SIiRRz1 | PG P DR s. 151/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+07:30-09:15 | ROK II sem 3 | SIiRRz1,SIiRRz2 | Psychologia i socjologia pracy ćwiczenia dr I. Butmanowicz-Dębicka ZDALNIE
+07:30-09:00 | ROK I sem 1 | SIiRRz2 | PG P DR s. 151/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:15-10:45 | ROK I sem 1 | CY1 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr A. Miodus s. N
+09:15-10:45 | ROK I sem 1 | CY3 | WZiRnI lab. MR s. 131 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:15-10:45 | ROK I sem 1 | CY4 | WZiRnI lab. MR s. 131 co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:15-11:30 | ROK I sem 1 | DS1,DS2,DS3,DS4 | Statystyczna analiza danych wykład dr hab. inż. Jacek Leśkow, prof. PK ZDALNIE UWAGA! Szczegóły dotyczące zajęć znajdują się na dole planu. | NOTE: UWAGA! Szczegóły dotyczące zajęć znajdują się na dole planu.; Zajęcia odbywają się w dniach: 2026-03-04, 2026-03-11, 2026-03-18, 2026-03-25, 2026-04-08, 2026-04-29, 2026-05-20, 2026-05-27, 2026-06-03, 2026-06-10
+09:15-10:45 | ROK I sem 1 | SIiRRz1 | MVR P PŁ s.151/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:15-10:45 | ROK I sem 1 | SIiRRz2 | MVR P PŁ s.151/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+09:30-11:15 | ROK II sem 3 | CY1,CY2,CY3 | Psychologia i socjologia pracy ćwiczenia dr I. Butmanowicz-Dębicka ZDALNIE
+09:30-11:15 | ROK II sem 3 | SIiRRz1,SIiRRz2 | Rozszerzona rzeczywistość w zastosowaniach inżynierskich wykład dr hab. inż. arch. P. Ozimek, prof. PK ZDALNIE co 2 tydzień 15h | NOTE: co 2 tydzień 15h
+11:00-12:30 | ROK I sem 1 | CY2 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr A. Miodus s. 152 SJO
+11:00-12:30 | ROK I sem 1 | CY4 | TPF lab. Gloria Kuliś s. wykładowa/135136 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+11:30-13:15 | ROK II sem 3 | DS1,DS2 | Psychologia i socjologia pracy ćwiczenia dr I. Butmanowicz-Dębicka ZDALNIE
+13:30-15:15 | ROK II sem 3 | DS3,DS4 | Psychologia i socjologia pracy ćwiczenia dr I. Butmanowicz-Dębicka ZDALNIE
+14:45-16:30 | ROK II sem 3 | CY1,CY2 | Seminarium dyplomowe dr hab. inż. M. Stanuszek, prof. PK s. Działowia 1/15 UWAGA! Zajęcia rozpoczynają się od 18.03.2026 | NOTE: UWAGA! Zajęcia rozpoczynają się od 18.03.2026
+15:30-17:15 | ROK II sem 3 | DS1,DS2,DS3,DS4 | Systemy rekomendacji wykład dr M. Zomorodi, prof. PK ZDALNIE
+16:15-17:45 | ROK I sem 1 | SIiRRz1 | UM P ARP s. 151/ZDALNIE
+16:45-18:30 | ROK II sem 3 | CY3 | Seminarium dyplomowe dr hab. inż. M. Stanuszek, prof. PK s. Działownia 1/15 UWAGA! Zajęcia rozpoczynają się od 18.03.2026 | NOTE: UWAGA! Zajęcia rozpoczynają się od 18.03.2026
+17:45-19:30 | ROK II sem 3 | CY1 | BAM lab. MŁ s. 114 GIL
+18:00-19:30 | ROK I sem 1 | CY2 | ZTP lab. EPAM s. wykładowa KI/135,136 bis
+18:00-19:30 | ROK I sem 1 | CY4 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+18:45-20:30 | ROK II sem 3 | SIiRRz1,SIiRRz2 | Seminarium dyplomowe dr hab. inż. M. Stanuszek, prof. PK s. Działownia 1/15 UWAGA! Zajęcia rozpoczynają się od 18.03.2026 | NOTE: UWAGA! Zajęcia rozpoczynają się od 18.03.2026
+19:00-21:15 | ROK I sem 1 | DS1 | OE P HO s. 305 WIŚiE/ZDALNIE
+19:30-21:15 | ROK II sem 3 | CY3 | BAM lab. MŁ s. 114 GIL
+19:30-21:00 | ROK I sem 1 | DS2 | ZTP lab. EPAM s. 136
+19:45-21:15 | ROK I sem 1 | CY1 | TPF P PO s.wykładowa KI/135,136/ZDALNIE pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+19:45-21:15 | ROK I sem 1 | CY2 | TPF lab. AWid s.wykładowa KI/135,136 bis druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+19:45-21:15 | ROK I sem 1 | DS3 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+
+CZWARTEK
+07:30-09:00 | ROK I sem 1 | CY1 | TPF lab. AWid s. 136 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+07:30-09:00 | ROK I sem 1 | CY2 | TPF P PO s. 136/ZDALNIE pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+07:30-09:00 | ROK I sem 1 | DS1 | TPF P PŁ s. 135/ZDALNIE pierwsza połowa semestru - 15h | NOTE: pierwsza połowa semestru - 15h
+07:30-09:00 | ROK I sem 1 | DS2 | TPF lab. Wojciech Malik s. 135 druga połowa semestru - 15h | NOTE: druga połowa semestru - 15h
+09:00-10:45 | ROK II sem 3 | DS1,DS2 | Seminarium dyplomowe Tomasz Stanisz s. Działownia 1/15
+09:00-10:45 | ROK II sem 3 | DS3,DS4 | Seminarium naukowe prof. dr hab. inż. W. Rachowicz s. N
+10:45-12:30 | ROK II sem 3 | DS1,DS2 | Seminarium naukowe prof. dr hab. inż. W. Rachowicz s. N
+11:00-12:45 | ROK II sem 3 | DS3,DS4 | Seminarium dyplomowe Tomasz Stanisz s. Działownia 1/15
+12:45-14:15 | ROK I sem 1 | SIiRRz1,SIiRRz2 | Metody obliczeniowe w nauce i technice wykład prof. dr hab. inż. W. Rachowicz ZDALNIE
+13:00-14:45 | ROK II sem 3 | DS1,DS2,DS3,DS4 | Szeregi czasowe, giełda, ekonomia wykład dr hab. inż. P. Oświęcimka s. N
+14:15-17:15 | ROK I sem 1 | SIiRRz1,SIiRRz2 | Uczenie maszynowe wykład dr Agnieszka Niemczynowicz ZDALNIE UWAGA! Zajęcia odbywają się 23.02.2026-31.03.2026 oraz 15.05.2026-15.06.2026. | NOTE: UWAGA! Zajęcia odbywają się 23.02.2026-31.03.2026 oraz 15.05.2026-15.06.2026.
+14:45-16:30 | ROK II sem 3 | DS1 | SzCzGE lab. POśw s. 135
+15:00-16:45 | ROK II sem 3 | DS3 | SzCzGE lab. Tomasz Stanisz s. wykładowa KI/135, 136 bis
+16:15-17:45 | ROK I sem 1 | CY1 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+16:15-17:45 | ROK I sem 1 | DS1,DS2,DS3,DS4 | Obliczenia ewolucyjne wykład dr inż. W. Książek ZDALNIE (wykład wspólny z KMS) | NOTE: (wykład wspólny z KMS)
+16:30-18:15 | ROK II sem 3 | DS2 | SzCzGE lab. POśw s. 135
+17:00-18:45 | ROK II sem 3 | DS4 | SzCzGE lab. Tomasz Stanisz s. wykładowa KI/135, 136 bis
+17:30-19:00 | ROK I sem 1 | SIiRRz1,SIiRRz2 | Modelowanie VR wykład dr inż. K. Skabek ZDALNIE
+17:45-19:30 | ROK II sem 3 | CY1,CY2,CY3 | Technologia blockchain w nauce i biznesie wykład dr M. Wątorek s. ZDALNIE
+18:00-19:30 | ROK I sem 1 | CY2 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+18:00-19:30 | ROK I sem 1 | CY3 | WZiRnI P MR s. 216 WIŚiE/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+18:00-19:30 | ROK I sem 1 | CY4 | WZiRnI P MR s. 216 WIŚiE/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+18:00-19:30 | ROK I sem 1 | DS1,DS2,DS3,DS4 | Techniki uczenia maszynowego wykład mgr inż. M. Gandor ZDALNIE
+19:15-20:45 | ROK I sem 1 | SIiRRz1,SIiRRz2 | Programowanie gier wykład dr inż. K. Skabek co 2 tydzień - 15h ZDALNIE | NOTE: co 2 tydzień - 15h
+19:45-21:15 | ROK I sem 1 | CY1 | WZiRnI P MR s. 216 WIŚiE/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+19:45-21:15 | ROK I sem 1 | CY2 | WZiRnI P MR s. 216 WIŚiE/ZDALNIE co 2 tydzień - 15h | NOTE: co 2 tydzień - 15h
+19:45-21:15 | ROK I sem 1 | CY3 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 5 WIŚiE/ZDALNIE | NOTE: (12h/18h)
+
+PIĄTEK
+07:30-09:00 | ROK I sem 1 | CY1 | WdC lab. DC s. wykładowa KI/135, 136 bis (15h) | NOTE: (15h)
+07:30-09:45 | ROK I sem 1 | DS1 | TUM P MG s. 136/ZDALNIE
+09:15-10:45 | ROK I sem 1 | CY2 | WdC lab. DC s. wykładowa KI/135, 136 bis (15h) | NOTE: (15h)
+09:15-10:45 | ROK I sem 1 | SIiRRz1 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr A. Gunia-Tracz s. N
+09:30-11:15 | ROK II sem 3 | CY1 | TBwNiB P MW s. 151/ZDALNIE
+10:00-12:15 | ROK I sem 1 | DS2 | TUM P MG s. 136/ZDALNIE
+11:00-12:30 | ROK I sem 1 | CY3 | WdC lab. DC s. wykładowa KI/135, 136 bis (15h) | NOTE: (15h)
+11:00-12:30 | ROK I sem 1 | SIiRRz2 | Pisanie tekstów specjalistycznych w języku angielskim ćwiczenia mgr A. Gunia-Tracz s. N
+11:15-13:00 | ROK II sem 3 | CY2 | TBwNiB P MW s. 151/ZDALNIE
+12:30-14:45 | ROK I sem 1 | DS3 | TUM P MG s. 135/ZDALNIE
+12:45-14:15 | ROK I sem 1 | CY4 | WdC lab. DC s. wykładowa KI/135, 136 bis (15h) | NOTE: (15h)
+13:00-14:45 | ROK II sem 3 | CY3 | TBwNiB P MW s. 151/ZDALNIE
+15:00-17:15 | ROK I sem 1 | DS4 | TUM P MG s. 136/ZDALNIE
+15:45-17:15 | ROK I sem 1 | SIiRRz1 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 135/ZDALNIE | NOTE: (12h/18h)
+16:00-18:15 | ROK I sem 1 | DS3 | OE P HO s. 151 /ZDALNIE
+16:15-17:45 | ROK I sem 1 | CY1 | BChO lab. AMyc s. 131
+16:15-17:45 | ROK I sem 1 | CY3 | ZTP lab. KW s. wykładowa KI/135, 136 bis
+17:30-19:00 | ROK I sem 1 | DS4 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 135/ZDALNIE | NOTE: (12h/18h)
+18:00-19:30 | ROK I sem 1 | CY3 | BChO lab. AMyc s. 131
+18:00-19:30 | ROK I sem 1 | DS1 | ZTP lab. KW s. wykładowa KI/135, 136 bis
+19:00-21:15 | ROK I sem 1 | DS4 | OE P HO s. 151 /ZDALNIE
+19:15-20:45 | ROK I sem 1 | SIiRRz2 | ZTBD P AP/Szymon Szomiński (12h/18h) s. 135/ZDALNIE | NOTE: (12h/18h)
+19:45-21:15 | ROK I sem 1 | CY4 | BChO lab. AMyc s. 131
+
+ADDITIONAL FOOTNOTE
+Statystyczna analiza danych: Zajęcia odbywają się w dniach: 2026-03-04, 2026-03-11, 2026-03-18, 2026-03-25, 2026-04-08, 2026-04-29, 2026-05-20, 2026-05-27, 2026-06-03, 2026-06-10

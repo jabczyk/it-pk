@@ -23,18 +23,30 @@ interface ScheduleEventProps {
 const themeClasses: Record<string, string> = {
   blue: 'bg-[#f4f7fb] border-[#0f172a]',
   green: 'bg-[#f2fbf5] border-[#65a30d]',
+  amber: 'bg-[#fff8eb] border-[#d97706]',
+  rose: 'bg-[#fff1f2] border-[#e11d48]',
+  teal: 'bg-[#f0fdfa] border-[#0f766e]',
+  violet: 'bg-[#f5f3ff] border-[#7c3aed]',
   gray: 'bg-[#f6f8fa] border-[#334155]'
 };
 
 const titleColors: Record<string, string> = {
   blue: 'text-[#0f172a]',
   green: 'text-[#3f6212]',
+  amber: 'text-[#92400e]',
+  rose: 'text-[#9f1239]',
+  teal: 'text-[#115e59]',
+  violet: 'text-[#5b21b6]',
   gray: 'text-[#0f172a]'
 };
 
 const locationColors: Record<string, string> = {
   blue: 'text-[#1e293b]',
   green: 'text-[#4d7c0f]',
+  amber: 'text-[#b45309]',
+  rose: 'text-[#be123c]',
+  teal: 'text-[#0f766e]',
+  violet: 'text-[#6d28d9]',
   gray: 'text-[#1e293b]'
 };
 

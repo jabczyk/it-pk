@@ -51,14 +51,18 @@ export function TopNav() {
           {/* User Details & Logout */}
           {user && (
             <div className="flex items-center gap-3 pl-2 border-l border-slate-200">
-              <div className="flex flex-col items-end">
+              <Link
+                to="/dashboard"
+                className="flex flex-col items-end rounded-sm px-2 py-1 transition-colors hover:bg-slate-100"
+                title="Open dashboard"
+              >
                 <span className="text-[12px] font-bold text-slate-700 leading-none">
                   {user.displayName || 'User'}
                 </span>
                 <span className="text-[10px] text-slate-400 mt-1 leading-none">
                   {user.email}
                 </span>
-              </div>
+              </Link>
               <button 
                 onClick={handleLogout} 
                 title="Log Out"

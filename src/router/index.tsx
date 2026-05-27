@@ -14,13 +14,13 @@ import { LoginPage } from '../pages/LoginPage';
 import { RegisterPage } from '../pages/RegisterPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { StudentSchedulePage } from '../pages/StudentSchedulePage';
+import { ContactPage } from '../pages/ContactPage';
 import { 
   RecruitmentPage, 
   DepartmentsInfoPage, 
   ResearchInfoPage, 
   NewsInfoPage, 
-  AboutPage, 
-  ContactPage 
+  AboutPage
 } from '../pages/PublicInfoPages';
 
 export const router = createBrowserRouter([

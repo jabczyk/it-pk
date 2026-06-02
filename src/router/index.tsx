@@ -22,93 +22,110 @@ import {
   NewsInfoPage, 
   AboutPage
 } from '../pages/PublicInfoPages';
+import { AnalyticsListener } from '../components/AnalyticsListener';
+import { Outlet } from 'react-router-dom';
+
+function RootLayout() {
+  return (
+    <>
+      <AnalyticsListener />
+      <Outlet />
+    </>
+  );
+}
 
 export const router = createBrowserRouter([
   {
-    element: <PublicLayout />,
+    element: <RootLayout />,
     children: [
       {
-        path: '/',
-        element: <HomePage />
-      },
-      {
-        path: 'recruitment',
-        element: <RecruitmentPage />
-      },
-      {
-        path: 'departments-info',
-        element: <DepartmentsInfoPage />
-      },
-      {
-        path: 'research-info',
-        element: <ResearchInfoPage />
-      },
-      {
-        path: 'news-info',
-        element: <NewsInfoPage />
-      },
-      {
-        path: 'about',
-        element: <AboutPage />
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />
-      }
-    ]
-  },
-  {
-    path: 'login',
-    element: <LoginPage />
-  },
-  {
-    path: 'register',
-    element: <RegisterPage />
-  },
-  {
-    element: <ProtectedRoute />,
-    children: [
-      {
-        element: <AppLayout />,
+        element: <PublicLayout />,
         children: [
           {
-            path: 'dashboard',
-            element: <DashboardPage />
+            path: '/',
+            element: <HomePage />
           },
           {
-            path: 'schedule',
-            element: <SchedulePage />
+            path: 'recruitment',
+            element: <RecruitmentPage />
           },
           {
-            path: 'news-editor',
-            element: <NewsEditorPage />
+            path: 'departments-info',
+            element: <DepartmentsInfoPage />
           },
           {
-            path: 'records',
-            element: <StudentRecordsPage />
+            path: 'research-info',
+            element: <ResearchInfoPage />
           },
           {
-            path: 'settings',
-            element: <SettingsPage />
+            path: 'news-info',
+            element: <NewsInfoPage />
           },
           {
-            path: 'research',
-            element: <ResearchPage />
+            path: 'about',
+            element: <AboutPage />
           },
           {
-            path: 'faculty',
-            element: <FacultyPage />
-          },
-          {
-            path: 'student-schedule',
-            element: <StudentSchedulePage />
+            path: 'contact',
+            element: <ContactPage />
           }
         ]
+      },
+      {
+        path: 'login',
+        element: <LoginPage />
+      },
+      {
+        path: 'register',
+        element: <RegisterPage />
+      },
+      {
+        element: <ProtectedRoute />,
+        children: [
+          {
+            element: <AppLayout />,
+            children: [
+              {
+                path: 'dashboard',
+                element: <DashboardPage />
+              },
+              {
+                path: 'schedule',
+                element: <SchedulePage />
+              },
+              {
+                path: 'news-editor',
+                element: <NewsEditorPage />
+              },
+              {
+                path: 'records',
+                element: <StudentRecordsPage />
+              },
+              {
+                path: 'settings',
+                element: <SettingsPage />
+              },
+              {
+                path: 'research',
+                element: <ResearchPage />
+              },
+              {
+                path: 'faculty',
+                element: <FacultyPage />
+              },
+              {
+                path: 'student-schedule',
+                element: <StudentSchedulePage />
+              }
+            ]
+          }
+        ]
+      },
+      {
+        path: '*',
+        element: <NotFoundPage />
       }
     ]
-  },
-  {
-    path: '*',
-    element: <NotFoundPage />
   }
 ]);
+

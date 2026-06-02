@@ -69,29 +69,29 @@ export function ScheduleEvent({ event, startHour, hourHeightRem }: ScheduleEvent
 
   return (
     <div
-      className={`absolute left-2 right-2 border-l-4 rounded-r-md p-3.5 flex flex-col overflow-hidden transition-all hover:shadow-md ${bgBorder}`}
+      className={`group absolute left-1 right-1 sm:left-2 sm:right-2 z-10 border-l-4 rounded-r-md p-2 sm:p-2.5 flex flex-col overflow-hidden transition-all hover:shadow-xl hover:!z-50 hover:!h-auto hover:min-h-[var(--event-height)] ${bgBorder}`}
       style={{
-        top: `${topRem}rem`,
-        height: `${heightRem}rem`,
-        zIndex: 10
-      }}
+        top: `calc(${topRem}rem + 2px)`,
+        height: `calc(${heightRem}rem - 4px)`,
+        '--event-height': `calc(${heightRem}rem - 4px)`,
+      } as React.CSSProperties}
     >
       {event.label && (
-        <div className="mb-2">
-          <span className="text-[9px] font-bold uppercase tracking-wider bg-slate-200/80 text-slate-700 px-1.5 py-0.5 rounded">
+        <div className="mb-1.5 shrink-0">
+          <span className="text-[8.5px] sm:text-[9px] font-bold uppercase tracking-wider bg-slate-200/80 text-slate-700 px-1.5 py-0.5 rounded leading-none">
             {event.label}
           </span>
         </div>
       )}
-      <h3 className={`font-bold text-[12px] tracking-wide uppercase ${titleColor}`}>
+      <h3 className={`font-bold text-[10.5px] sm:text-[11px] leading-[1.3] tracking-wide uppercase break-words ${titleColor}`}>
         {event.title}
       </h3>
-      <p className="text-[12px] text-slate-500 mt-0.5">
+      <p className="text-[10.5px] sm:text-[11px] text-slate-500 mt-1 leading-snug break-words">
         {event.instructor}
       </p>
-      <div className={`mt-auto flex items-center gap-1.5 text-[11px] font-bold ${locColor}`}>
-        <MapPin className="w-3.5 h-3.5 opacity-80" />
-        <span>{event.location}</span>
+      <div className={`mt-auto pt-2 flex items-center gap-1.5 text-[10.5px] sm:text-[11px] font-bold ${locColor}`}>
+        <MapPin className="w-3.5 h-3.5 shrink-0 opacity-80" />
+        <span className="truncate group-hover:whitespace-normal break-words">{event.location}</span>
       </div>
     </div>
   );

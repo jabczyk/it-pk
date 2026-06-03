@@ -80,10 +80,11 @@ Aktualnie używane klucze:
 
 Integracja GA4 jest aktywowana przez `VITE_GA_MEASUREMENT_ID` i wysyła podstawowe zdarzenia page view.
 
-<!-- TODO: screeny GA4 -->
+![GoogleAnalytics](docs/GoogleAnalytics.png)
+
 
 ## Hotjar
 
 Integracja Hotjar jest aktywowana przez zmienne środowiskowe `VITE_HOTJAR_VERSION` i `VITE_HOTJAR_SITE_ID`.
 
-<!-- TODO: screeny Hotjar -->
+![Hotjar](docs/Hotjar.png)

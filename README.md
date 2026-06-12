@@ -6,6 +6,10 @@ Alternatywny portal wydziałowy zbudowany w `React + Vite + TypeScript + Tailwin
 
 Produkcja: [https://it-pk-five.vercel.app](https://it-pk-five.vercel.app)
 
+## Audyt
+
+Raport z audytu: [Koczur_Szymon_Marszałek_Maksymilian_Jabczyk_Michał_TPF_Audyt.pdf](./Koczur_Szymon_Marszałek_Maksymilian_Jabczyk_Michał_TPF_Audyt.pdf)
+
 ## Zakres projektu
 
 - publiczne widoki wydziału: strona główna, rekrutacja, jednostki, badania, aktualności, kontakt
